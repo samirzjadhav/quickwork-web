@@ -7,6 +7,7 @@
 
 body {
   font-family: "Inter", sans-serif;
+  background-color: #f9f8f4;
 }
 
 .container-navbar {
@@ -16,11 +17,6 @@ body {
   align-items: center;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
   position: sticky;
-}
-
-.navbar {
-  display: flex;
-  align-items: center;
 }
 
 .navbar img {
@@ -36,8 +32,17 @@ body {
 }
 
 .primary-btn {
-  margin-left: 50px;
+  margin-right: 40px;
 }
+
+.btn {
+  color: black;
+  font-size: 16px;
+  padding: 10px 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
 .primary-btn a {
   display: flex;
   align-items: center;
@@ -55,8 +60,63 @@ body {
   color: white;
 }
 
-.primary-btn svg {
+svg {
   width: 30px;
   height: 30px;
   padding-left: 10px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.header h1 {
+  max-width: 1200px;
+  margin-top: 0px;
+  margin-bottom: 32px;
+  font-size: 64px;
+  line-height: 120%;
+  margin-bottom: 30px;
+}
+
+.header p {
+  font-size: 20px;
+  line-height: 160%;
+  padding-bottom: 45px;
+}
+
+.header a {
+  position: relative;
+  text-decoration: none;
+  align-items: center;
+  font-size: 18px;
+  margin-top: 10px;
+  background-image: url(./asset/img/arrow-outward.svg);
+  background-position: 92% 55%;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  padding: 16px 40px 16px 20px;
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.header a:hover {
+  box-shadow: 5px 5px 5px gray;
+}
+
+.illustation {
+  text-align: center;
+  margin-top: -80px;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
 }
