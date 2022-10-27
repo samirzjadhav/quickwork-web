@@ -246,7 +246,8 @@ svg {
   width: 80%;
 }
 
-.description a {
+.description a,
+.service-items a {
   padding: 8px 32px 8px 12px;
   border-style: solid;
   border-width: 1px;
@@ -258,7 +259,8 @@ svg {
   font-weight: 600;
 }
 
-.description a:hover {
+.description a:hover,
+.service-items a:hover {
   background-color: #121527;
   color: #fff;
   background-image: url(https://assets.website-files.com/6229c581695b1439ca5bd352/6229c86b5c4b7164d74f83ed_icon-btn.svg);
@@ -278,4 +280,76 @@ svg {
   font-size: 16px;
   line-height: 140%;
   font-weight: 700;
+}
+
+/* Testimonials section */
+.testimonials {
+  padding: 100px 60px;
+}
+
+.test-container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.test-heading {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 770px;
+}
+
+.test-img {
+  position: absolute;
+  left: auto;
+  top: 16%;
+  right: 0%;
+  bottom: auto;
+  width: 72px;
+}
+
+.service {
+  display: block;
+  margin-top: 72px;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  column-count: 3;
+  column-gap: 16px;
+}
+
+.service-items {
+  display: inline-block;
+  background-color: #fff;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 24px;
+}
+
+.heading-4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.service-item {
+  margin-top: 16px;
+}
+
+.txt-tag {
+  display: inline-block;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  padding: 3px 7px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #121527;
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(18, 21, 39, 0.1);
+  transition: all 100ms ease;
+}
+
+.sm-padding {
+  padding-bottom: 20px;
 }
