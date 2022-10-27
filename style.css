@@ -17,7 +17,14 @@ body {
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  top: 0;
   position: sticky;
+  z-index: 1000;
+  background-color: #f9f8f4;
+}
+
+.navbar-active {
+  background-color: #fff;
 }
 
 .navbar img {
@@ -38,6 +45,7 @@ body {
 }
 
 .btn {
+  text-decoration: none;
   color: black;
   font-size: 16px;
   padding: 10px 20px;
@@ -99,19 +107,23 @@ svg {
   align-items: center;
   font-size: 18px;
   margin-top: 10px;
-  background-image: url(./asset/img/arrow-outward.svg);
-  background-position: 92% 55%;
-  background-size: 20px 20px;
-  background-repeat: no-repeat;
-  padding: 16px 40px 16px 20px;
   color: #fff;
   background-color: #000;
-  cursor: pointer;
+
   z-index: 1;
 }
 
 .header a:hover {
   box-shadow: 5px 5px 5px gray;
+}
+
+.header-btn {
+  background-image: url(./asset/img/arrow-outward.svg);
+  background-position: 92% 55%;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  padding: 16px 40px 16px 20px;
+  cursor: pointer;
 }
 
 .illustation {
@@ -186,4 +198,84 @@ svg {
   color: #121527;
   font-size: 14px;
   line-height: 160%;
+}
+
+/* Blog Container */
+
+.blog-container {
+  overflow: hidden;
+  padding: 72px 60px;
+  background-color: #fff;
+}
+
+.blog-info {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1200px;
+}
+
+.description {
+  flex-basis: 50%;
+}
+
+.text-label {
+  max-width: 770px;
+  margin-bottom: 16px;
+  font-size: 12px;
+  line-height: 120%;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.header-h2 {
+  max-width: 770px;
+  margin-top: 0px;
+  margin-bottom: 24px;
+  font-size: 40px;
+  line-height: 120%;
+  font-weight: 600;
+}
+
+.blog-text {
+  margin-bottom: 0px;
+  font-size: 20px;
+  line-height: 160%;
+  margin-bottom: 24px;
+  width: 80%;
+}
+
+.description a {
+  padding: 8px 32px 8px 12px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e3e1de;
+  background-color: transparent;
+  background-image: url("https://assets.website-files.com/6229c581695b1439ca5bd352/622ae86673a6a664ff837ef8_icon-btn2.svg");
+  background-position: 93% 50%;
+  color: #121527;
+  font-weight: 600;
+}
+
+.description a:hover {
+  background-color: #121527;
+  color: #fff;
+  background-image: url(https://assets.website-files.com/6229c581695b1439ca5bd352/6229c86b5c4b7164d74f83ed_icon-btn.svg);
+}
+
+.small-padding {
+  padding-left: 100px;
+}
+
+.list-features {
+  margin-top: 24px;
+  margin-bottom: 0px;
+  padding-left: 20px;
+}
+
+.txt-item {
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: 700;
 }
