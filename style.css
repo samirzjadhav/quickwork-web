@@ -353,3 +353,40 @@ svg {
 .sm-padding {
   padding-bottom: 20px;
 }
+
+/* Case section */
+
+.case {
+  background-color: #fff;
+}
+
+.case.first {
+  padding-top: 150px;
+}
+
+.case-info {
+  padding-left: 50px;
+}
+
+.case-info:nth-last-child(2),
+.case-info:nth-last-child(4) {
+  padding-left: 0px;
+  padding-right: 50px;
+}
+.case-img img {
+  width: 580px;
+}
+
+.case-text {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.case-details {
+  display: flex;
+  margin-top: 80px;
+}
+
+.case-details-item:nth-last-child(1) {
+  margin-left: 20px;
+}
