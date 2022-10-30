@@ -467,3 +467,34 @@ svg {
   justify-content: center;
   margin-top: 30px;
 }
+
+/* THE PROCESS */
+.process {
+  margin: 100px 60px;
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+  margin-top: 72px;
+}
+
+.tabs-process {
+  padding: 26px;
+  border-bottom: 1px solid #e3e1de;
+}
+
+.tab-active {
+  background-color: #fff;
+}
+
+.tab-link-process {
+  width: 100%;
+  text-decoration: none;
+  color: #121527;
+}
+
+.tab-images img {
+  margin-left: 100px;
+  width: 600px;
+}
