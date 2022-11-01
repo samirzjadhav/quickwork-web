@@ -717,3 +717,63 @@ svg {
   text-align: center;
   margin-top: 48px;
 }
+
+.faqs {
+  padding: 144px 60px 72px 60px;
+  background-color: #fff;
+}
+
+.faqs-info {
+  display: flex;
+}
+
+.fas-question {
+  width: 700px;
+}
+
+.faqs-h4 {
+  width: 100%;
+}
+
+.question {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e3e1de;
+  cursor: pointer;
+}
+
+.div-content {
+  width: 700px;
+}
+
+.fasq-q {
+  display: flex;
+  flex-direction: column;
+}
+
+.question-item {
+  display: flex;
+}
+
+.question-item img {
+  margin-left: 10px;
+  width: 24px;
+  height: 24px;
+}
+
+.faqs-btn {
+  padding: 10px 34px;
+  background-color: #fff;
+  color: #121527;
+  border: none;
+  border: 1px solid #e3e1de;
+}
+
+.faqs-svg {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 370px;
+  margin-top: 48px;
+  margin-bottom: -178px;
+}
