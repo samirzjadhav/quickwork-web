@@ -791,6 +791,10 @@ svg {
   margin-bottom: -178px;
 }
 
+.faqs-bl {
+  display: none;
+}
+
 /* Footer section */
 .footer {
   padding: 150px 60px 50px 60px;
