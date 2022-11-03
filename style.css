@@ -878,6 +878,10 @@ svg {
     padding-left: 28px !important;
   }
 
+  .block {
+    padding: 0px;
+  }
+
   .mobile img {
     width: 38px;
     height: 38px;
@@ -924,7 +928,7 @@ svg {
   }
 
   .client-img img {
-    max-width: 130px;
+    max-width: 126px;
     padding-left: 24px;
   }
 
@@ -1137,7 +1141,7 @@ svg {
 
   .hero-img img {
     overflow: hidden;
-    width: 100%;
+    width: 90%;
     height: 100%;
   }
 
@@ -1147,7 +1151,7 @@ svg {
   }
 
   .client-img img {
-    max-width: 140px;
+    max-width: 126px;
     padding-left: 24px;
   }
 
@@ -1216,12 +1220,16 @@ svg {
   }
 
   .portfolios img {
-    width: 184px;
+    width: 170px;
   }
 
   .port-svg {
     left: 40vw;
-    top: 52%;
+    top: 66%;
+  }
+
+  .port-svg img {
+    width: 184px;
   }
 
   .portfolios {
@@ -1326,6 +1334,10 @@ svg {
     display: block;
   }
 
+  .faqs-bl img {
+    width: 370px;
+  }
+
   .footer-menu {
     grid-template-columns: 1fr 1fr;
   }
@@ -1336,5 +1348,10 @@ svg {
 
   .div-content {
     width: 100%;
+  }
+
+  .footer-menu {
+    grid-column-gap: 9px;
+    grid-row-gap: 16px;
   }
 }
