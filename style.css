@@ -1012,7 +1012,7 @@ svg {
   }
 
   .port-svg img {
-    width: 280px;
+    width: 230px;
   }
 
   .port-svg {
@@ -1136,8 +1136,9 @@ svg {
   }
 
   .hero-img img {
-    overflow: auto;
-    width: 562px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
   }
 
   .client-img {
@@ -1146,7 +1147,7 @@ svg {
   }
 
   .client-img img {
-    max-width: 152px;
+    max-width: 140px;
     padding-left: 24px;
   }
 
@@ -1220,7 +1221,7 @@ svg {
 
   .port-svg {
     left: 40vw;
-    top: 35%;
+    top: 52%;
   }
 
   .portfolios {
@@ -1331,5 +1332,9 @@ svg {
 
   .footer-pad {
     margin-top: 20px;
+  }
+
+  .div-content {
+    width: 100%;
   }
 }
